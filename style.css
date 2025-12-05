@@ -10,3 +10,7 @@
     --fontSize-h4: 1.9375rem;
 }
 
+
+nav {
+    background-color: var(--color-green);
+}
