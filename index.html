@@ -9,7 +9,9 @@
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="normalize.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -24,6 +26,7 @@
         <li><a href="#">Contact</a></li>
         <li><a class="btn" href="#">Download the app &#8594;</a></li>
       </ul>
+      <a class="hamburger" href="#"><img src="Images/Hamburger.png" alt="Hamburger"></a>
     </nav>
     <div class="hero">
       <div class="intro">
@@ -132,7 +135,7 @@
             <h4>Pen</h4>
             <p>Smooth writing, minimal look, always by your side in class.</p>
           </article>
-          <article>
+          <article class="squishy">
             <img src="Images/Fumble Squishy.png" alt="Fumble Squishy">
             <h4>Squishy</h4>
             <p>Squeeze away stress and stay focused during long study sessions.</p>
@@ -226,17 +229,48 @@
   </main>
 
   <footer>
-    <div class="left-foot">
+    <div class="footer-content">
+      <div class="left-foot">
 
-    <a href="#"><img src="Images/Logo Fumble.svg" alt="Logo Fumble" /></a>
-    <p>Stumble less, learn more.</p>
-    <div class="icons">
-      <a href="#"><i class="fa-brands fa-instagram"></i></a>
-      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="#"><img src="Images/Logo Fumble.svg" alt="Logo Fumble" /></a>
+        <p>Stumble less, learn more.</p>
+        <div class="icons">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+
+      <div class="right-foot">
+
+        <div class="column-left">
+          <h3>Explore</h3>
+          <a href="#">About us</a>
+          <a href="#">How it works</a>
+          <a href="#">Membership</a>
+          <a href="#">Merch</a>
+          <a href="#">Contact</a>
+        </div>
+
+
+        <div class="column-right">
+          <h3>Other</h3>
+          <a href="#">User terms & conditions</a>
+          <a href="#">Privacy</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
     </div>
+
+    <div class="bottom-foot">
+      <div class="line"></div>
+      <div class="extra-foot">
+        <p>©2025 Fumble. All rights reserved.</p>
+        <p>English<span></span>Nederlands</p>
+      </div>
     </div>
   </footer>
 </body>
 <script src="script.js"></script>
+
 </html>

@@ -177,6 +177,7 @@ main p {
   padding: 12px 32px;
   border-radius: 50px;
   text-decoration: none;
+  font-size: 1em;
 }
 
 .right a {
@@ -185,6 +186,7 @@ main p {
   border-radius: 50px;
   text-decoration: none;
   color: var(--color-white);
+  font-size: 1em;
 }
 
 .merch {
@@ -382,12 +384,307 @@ footer {
   padding: 100px;
 }
 
-.icons a{
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons a {
   color: var(--color-white);
 }
 
 footer p {
   color: var(--color-white);
+  margin-top: 6px;
 }
 
+.right-foot h3,
+a {
+  color: var(--color-white);
+  font-size: var(--fontSize-h3);
+}
 
+.right-foot a {
+  text-decoration: none;
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.right-foot {
+  display: flex;
+  gap: 50px;
+}
+
+.line {
+  margin-top: 100px;
+  border-radius: 10px;
+  border: solid var(--color-white);
+  border-width: 1px;
+}
+
+.extra-foot {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.extra-foot span {
+  border-radius: 10px;
+  border: solid var(--color-white);
+  border-width: 1px;
+  margin: 5px;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 1400px) {
+  nav img {
+    width: 150px;
+  }
+
+  nav {
+    align-items: baseline;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger img {
+    width: 30px;
+  }
+
+  .intro-img {
+    display: none;
+  }
+
+  .intro {
+    padding-top: 0px;
+    padding-bottom: 100px;
+  }
+
+  .stats {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .lines {
+    margin: 10px;
+  }
+
+  .gridimg {
+    display: none;
+  }
+
+  .imgstudying {
+    display: none;
+  }
+
+  span {
+    font-size: 0.875rem;
+  }
+
+  h2 {
+    font-size: 2.67rem;
+  }
+
+  h1 {
+    font-size: 3.3381rem;
+  }
+
+  p {
+    font-size: 0.875rem;
+  }
+
+  a {
+    font-size: 0.875rem;
+  }
+
+  .intro {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .intro p {
+    font-size: 0.875rem;
+  }
+
+  .intro h1 {
+    font-size: 3.3381rem;
+  }
+
+  .intro span {
+    font-size: 0.875rem;
+  }
+
+  .helping {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+  }
+
+  .content {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .content-left h2 {
+    font-size: 2.67rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+  }
+
+  .merch-content {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+  }
+
+  .merch-text {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .arrow-btn {
+    justify-content: center;
+  }
+
+  .merch-cards {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 40px;
+  }
+
+  .merch-cards article {
+    width: 180px;
+  }
+
+  .merch-cards article img {
+    width: 180px;
+  }
+
+  .content-text {
+    display: none;
+  }
+
+  .understanding-img {
+    display: none;
+  }
+
+  .understanding-text h2 {
+    font-size: 2.67rem;
+  }
+
+  .understanding-text span {
+    font-size: 0.875rem;
+  }
+
+  .understanding-text p {
+    font-size: 0.875rem;
+  }
+
+  .understanding-text a {
+    font-size: 0.875rem;
+  }
+
+  .understanding {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .understanding-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+  }
+
+  .journey-img {
+    display: none;
+  }
+
+  .journey {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .journey-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+  }
+
+  .journey a {
+    font-size: 0.875rem;
+  }
+
+  .journey-text {
+    margin-right: 0;
+  }
+
+  footer {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .app-store {
+    display: inline-block;
+  }
+
+  br {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .squishy {
+    display: none;
+  }
+
+  .faq-text p {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
